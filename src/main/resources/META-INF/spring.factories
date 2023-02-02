@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.pxyc.grpc.spring.boot.autoconfigure.DefaultGrpcCommonAutoConfiguration,\
+  com.pxyc.grpc.spring.boot.autoconfigure.server.DefaultGrpcServerAutoConfiguration,\
+  com.pxyc.grpc.spring.boot.autoconfigure.server.nacos.DefaultGrpcServerNacosAutoConfiguration,\
+  com.pxyc.grpc.spring.boot.autoconfigure.client.DefaultGrpcClientAutoConfiguration
